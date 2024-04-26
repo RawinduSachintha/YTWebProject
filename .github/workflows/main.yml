@@ -20,4 +20,4 @@ jobs:
 
     - name: Deploy Website
       run: |
-        scp -r ./* root@18.136.21.234:/www/wwwroot/raviya.run.place
+        scp -r ./* ubuntu@18.136.21.234:/www/wwwroot/raviya.run.place
